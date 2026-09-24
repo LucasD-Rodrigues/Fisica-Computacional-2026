@@ -26,14 +26,14 @@ Por fim, o gráfico do tempo de erro também revela informações relevantes ace
   <img src="figura-tempo-rapido.png" width="400">
 </p>  
 
-aqui, na escala logarítmica vemos que não há aumento considerável no tempo de execução até a ordem $N \sim 10^3$, depois o tempo de execução explode rápido.
+aqui, na escala logarítmica vemos que não há aumento considerável no tempo de execução até a ordem $N \sim 10^3$, depois o tempo de execução explode rápido. A lei de potência na tendência dos quatro últimos pontos é, aproximadamente $t \sim N^{0.8}$ 
 
 <p align="center">
   <img src="fig-tempo-lento.png" width="400">
 </p>
 
 Em contraste ao primeiro cenário, o código lenta apresenta explosão rápida do tempo médio de execução, que faz o código rápido dominar a zona 
-$N > 10^2$, antes disso não há ganho de tempo considerável.
+$N > 10^2$, antes disso não há ganho de tempo considerável. A lei de potência do conjunto completos de pontos aqui é linear $t \sim N$.
 
 
 
